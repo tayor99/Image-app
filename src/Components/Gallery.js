@@ -1,7 +1,7 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
-import "../Styles/Gallery.css";
-import { BASE_URL } from "../apis/api";
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+import '../Styles/Gallery.css';
+import { BASE_URL } from '../apis/api';
 
 const Gallery = ({ images, setImages }) => {
   const [pages, setPages] = useState(1);
@@ -51,7 +51,7 @@ const Gallery = ({ images, setImages }) => {
         );
       })}
       <div className="page__control">
-        <button className="prev" onClick={handlePrevious}>
+        <button className="previous" onClick={handlePrevious}>
           Previos
         </button>
         <span>{pages}</span>
