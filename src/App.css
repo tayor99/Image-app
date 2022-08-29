@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --light-blue: #6495ed;
+}
+
+.app__modal {
+  width: 40%;
+  height: 80%;
+  margin: 40px auto;
+  border: 5px solid var(--light-blue);
+  border-radius: 50px;
+  padding: 20px;
+}

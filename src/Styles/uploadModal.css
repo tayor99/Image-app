@@ -1,0 +1,49 @@
+.uploadModal__closeBtn {
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px solid var(--light-blue);
+  cursor: pointer;
+  display: block;
+  margin-bottom: 40px;
+}
+.uploadModal__form {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Kanit", sans-serif;
+}
+.uploadModal__form > label {
+  display: block;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.6rem;
+  margin: 5px 0px;
+}
+.uploadModal__form > input {
+  width: 100%;
+  padding: 7px 12px;
+  font-size: 1.2rem;
+  border: 1px solid var(--light-blue);
+  outline: none;
+}
+
+.uploadModal__form > input[type="file"] {
+  border: none;
+}
+
+.uploadModalForm__btn {
+  width: 80%;
+  margin: 60px auto 0;
+}
+
+.uploadModalForm__btn > button {
+  width: 100%;
+  border: 1px solid var(--light-blue);
+  height: 60px;
+  outline: none;
+  background: none;
+  border-radius: 25px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: inherit;
+}
